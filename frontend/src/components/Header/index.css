@@ -1,0 +1,45 @@
+.header {
+
+    height: 70px;
+}
+.header-info {
+    display: block;
+    float: left;
+    height: 60px;
+    line-height: 50px;
+    color: rgb(60, 2, 85);
+    font-size: 22px;
+    text-shadow: 5px 5px 5px #e56f6f;
+    font-weight:bold;
+    font-family: 宋体;
+}
+#header-div{
+    border-radius: 25px;
+    border: 2px solid #8AC007;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: auto;
+    height: 68px;
+}
+
+.header-button {
+
+    
+    font-size: 18px;
+    float: right;
+   
+    padding-top: auto;
+    background-color: #635fc9;
+    color: white;
+    font-weight:bold;
+    font-family: 宋体;
+    border: none;
+    border-radius: 15px;
+    height: 65px;
+    width: 120px;
+}
+
+.header-button:hover {
+    background-color: #65b63f;
+    color: black;
+}

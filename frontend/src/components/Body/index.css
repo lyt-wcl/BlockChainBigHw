@@ -1,0 +1,110 @@
+.body {
+    padding: 30px 30px;
+    border: 2px solid black;
+}
+.menu li {
+    height: 100px;
+    line-height: 60px;
+    color: rgb(60, 2, 85);
+    font-size: 22px;
+    font-weight:bold;
+    font-family: 宋体;
+}
+
+.menu li button {
+    height: 60px;
+    width: 100px;
+    background: none;
+    color: rgb(60, 2, 85);
+    font-size: 22px;
+    font-weight:bold;
+    font-family: 宋体;
+
+}
+#signIn{
+    margin-top: 30px;
+    height: 70px;
+    border-radius: 25px;
+    border: 2px solid #8AC007;
+
+}
+#signInBtn{
+    position: relative;
+    
+    font-size: 18px;
+    float: right;
+   
+    padding-top: auto;
+    background-color: #635fc9;
+    color: white;
+    font-weight:bold;
+    font-family: 宋体;
+    border: none;
+    border-radius: 15px;
+    height: 65px;
+    width: 120px;
+}
+#signInBtn:hover {
+    background-color: #65b63f;
+    color: black;
+}
+
+.proposal-form input[type=text],
+.proposal-form textarea {
+    width: 100%;
+    padding: 18px;
+    font-size: 18px;
+    border: 1px solid rgb(24, 22, 22);
+    background: none;
+    border-radius: 10px;
+    resize: vertical;
+}
+
+.proposal-form textarea {
+    height: 200px
+}
+
+.proposal-form label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.proposal-form input[type=submit] {
+    padding: 18px;
+    font-size: 18px;
+    background-color: #635fc9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+}
+
+.proposal-form input[type=submit]:hover {
+    color: black;
+    background-color: #45a049;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.list-title{
+    background: none;
+    color: rgb(60, 2, 85);
+    font-size: 22px;
+    font-weight:bold;
+    font-family: 宋体;
+    
+}
+
+#proposal_title{
+    color: rgb(60, 2, 85);
+    font-size: 22px;
+    font-weight:bold;
+    font-family: 宋体;
+    
+    margin: auto;
+}
